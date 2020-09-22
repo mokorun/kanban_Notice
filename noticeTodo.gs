@@ -15,7 +15,7 @@ function Asan() {
   
   
   //Bsanの実行関数
-  function futo() {
+  function Bsan() {
     deleteTrigger('Bsan');
      //設定読み込み
     var confData = getConf();
@@ -29,8 +29,8 @@ function Asan() {
   }
   
   //Csanの実行関数
-  function tera() {
-    deleteTrigger('tera');
+  function Csan() {
+    deleteTrigger('Csan');
      //設定読み込み
     var confData = getConf();
     

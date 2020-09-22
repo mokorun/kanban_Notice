@@ -75,16 +75,3 @@ function sendMessage(body,room_id) {
     }
     return 0;
   }
-  
-  function setCell(a) {
-    
-    //設定読み込み
-    var confData = getConf();
-    //sheet指定
-    var spreadsheet = SpreadsheetApp.openById(confData.key).getSheetByName('kanban');
-    
-    spreadsheet.getRange('A22').setValue('e'); // メッセージリストを取得
-    
-    return 0; 
-  }
-  
